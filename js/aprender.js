@@ -16,19 +16,21 @@ var boolean = true //false
 console.log(boolean)
 var arrays_string = ["lun", "Mar","Mier","Jue","Vier"];
 
-console.log(arrays_string)
+document.getElementById("submit").addEventListener("click", function(event){
+event.preventDefault();
+Swal.fire({
+icon: "error",
+title: "Oops...",
+  text: "Correo o contraseña incorrectos",
+  footer: '<a href="#">Why do I have this issue?</a>'
+});
+});
 //operadores aritmaticos +,-,*,/ %}
 
 //Operadores de comparacion 
 
 //Estructuras logicas
 //Inicializador 
- for (let i = 0; i < arrays_string.length; i++) {
-  console.log(arrays_string[i])
-  Swal.fire({
-  icon: "error",
-  title: "Oops...",
-  text: "Something went wrong!",
-  footer: '<a href="#">Why do I have this issue?</a>'
-});
- }
+
+ 
+ 

@@ -18,15 +18,22 @@ Incluye las siguientes secciones:
 
 LOGIN.DUVAN/
 │
-├── html/
-│ ├── index.html
-│ ├── registro.html
-│ └── olvidar.html
+├── 📁 html/ # Archivos HTML principales
+│ ├── index.html # Página de inicio de sesión
+│ ├── registro.html # Página de registro
+│ └── olvidar.html # Página para recuperar contraseña
 │
-├── js/
-│ └── aprender.js
+├── 📁 css/ # Estilos personalizados (opcional)
+│ └── estilos.css # Estilos propios además de Bootstrap
 │
-└── README.md
+├── 📁 js/ # Scripts JavaScript
+│ └── aprender.js # Lógica y validaciones del formulario
+│
+├── 📁 assets/ # Recursos como imágenes o íconos
+│ └── logo.png # Logo del proyecto (ejemplo)
+│
+├── README.md # Documentación del proyecto
+└── .vscode/ # Configuraciones de Visual Studio Code (opcional)
 
 ## 🚀 Cómo usar
 
