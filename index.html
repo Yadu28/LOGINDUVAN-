@@ -11,14 +11,14 @@
       <div class="card shadow-sm" style="max-width: 400px; width: 100%;">
         <div class="card-body">
           <h3 class="card-title text-center mb-4">Iniciar Sesión</h3>
-          <form novalidate>
+          <form>
             <div class="mb-3">
               <label for="inputEmail" class="form-label">Correo electrónico</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="usuario@ejemplo.com" required aria-label="Correo">
+              <input type="email" class="form-control" id="inputEmail" placeholder="usuario@ejemplo.com" required>
             </div>
             <div class="mb-3">
               <label for="inputPassword" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" required aria-label="Contraseña">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" required>
             </div>
             <div class="form-check mb-3">
               <input class="form-check-input" type="checkbox" id="rememberCheck">
@@ -28,12 +28,15 @@
           </form>
         </div>
         <div class="card-footer text-center">
-          <small class="text-muted">¿No tienes cuenta? <a href="#">Regístrate</a></small>
+          <small class="text-muted">
+            ¿No tienes cuenta?<a href="html/registro.html">Registrate</a>
+          </small>
         </div>
       </div>
     </div>
-     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-JzjGgSAnN9yT0owrLmf2O4fN0T5yYj25fYtD7F7ff1z6fzp3K8xl6Y5j9d2F3g2J" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS (incluye Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+     integrity ="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" yYj25fYtD7F7ff1z6fzp3K8xl6Y5j9d2F3g2J" crossorigin="anonymous"></script>
     <script src="js/aprender.js"></script>
-  </body>
+  </body> 
 </html>
